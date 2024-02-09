@@ -3,71 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Handmade Merch Store</title>
+    <title>Streamer - Your Video Platform</title>
     <style>
         body {
-            background-image: url('wood-background.jpg'); /* Replace with your wood photo */
-            background-size: cover;
-            color: snow;
+            background-color: #2c3e50; /* Dark blue */
+            color: #ecf0f1; /* Light white */
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: darkblue;
+            background-color: #3498db; /* Blue */
             padding: 20px;
             text-align: center;
         }
         h1 {
-            color: gold;
+            color: #f39c12; /* Gold */
         }
         section {
             padding: 20px;
             text-align: center;
         }
         footer {
-            background-color: lightblue;
+            background-color: #e74c3c; /* Dark red */
             padding: 10px;
             text-align: center;
         }
-        .product {
-            display: inline-block;
-            margin: 20px;
-            padding: 10px;
-            background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity if needed */
-            border-radius: 10px;
+        .video-container {
+            max-width: 800px;
+            margin: auto;
+            overflow: hidden;
+        }
+        .video-embed {
+            width: 100%;
+            height: 450px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Your Handmade Merch Store</h1>
+        <h1>Streamer - Your Video Platform</h1>
     </header>
 
     <section>
-        <!-- Product Gallery -->
-        <h2>Featured Products</h2>
-
-        <div class="product">
-            <img src="product1.jpg" alt="Product 1">
-            <p>Product 1 Description</p>
-            <p>Price: $20.00</p>
-        </div>
-
-        <div class="product">
-            <img src="product2.jpg" alt="Product 2">
-            <p>Product 2 Description</p>
-            <p>Price: $25.00</p>
-        </div>
-
         <!-- Video Section -->
         <h2>Featured Videos</h2>
-        <!-- Add your video embed codes or links here -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+        
+        <div class="video-container">
+            <!-- Add your video embed codes or links here -->
+            <iframe class="video-embed" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+        </div>
     </section>
 
     <footer>
-        <p>Contact us at: your@email.com</p>
+        <p>Join the community and start streaming today!</p>
     </footer>
 </body>
 </html>
